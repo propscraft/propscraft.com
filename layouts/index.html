@@ -1,0 +1,188 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light dark" />
+		{{ with resources.Get "css/pico.min.css" }}
+		  <link rel="stylesheet" href="{{ .RelPermalink | safeCSS }}"/>
+		{{ end }}
+	</head>
+	<body>
+		<div id="root">
+			<header class="container">
+				<hgroup><h1>Comprehensive DevOps and SRE Solutions Tailored to Your Business</h1></hgroup>
+				<p>Unlock the full potential of your IT infrastructure with our extensive expertise in <b>DevOps</b> and Site Reliability Engineering (<b>SRE</b>). From cloud management and automation to seamless migrations and team collaboration, we offer a range of consulting, design and implementation services optimizing your operations and drive impactful results in dynamic environments.  Multilingual support for clients with proficiency in English, Russian, and Latvian.</p>
+				<div class="grid">
+					<div class="grid">
+						<div class="container">
+							<article>
+								<div>Voldemārs</div>
+								{{ $image1 := resources.Get "images/image1.jpg" }}
+								<div><img src="{{ $image1.RelPermalink }}" style="width: 78.50px; height: 131.77px;"/></div>
+								<div><a href="https://www.linkedin.com/in/voldemars-punte-65874655/" target="_blank">LinkedIn</a></div>
+							</article>
+							<div>Results-driven professional with over 25 years of expertise in System Administration, DevOps, and Infrastructure Management</div>
+						</div>
+						<div class="container">
+							<article>
+								<div>Konstantīns</div>
+								{{ $image2 := resources.Get "images/image2.png" }}
+								<div><img src="{{ $image2.RelPermalink }}" style="width: 78.50px; height: 131.77px;" /></div>
+								<div><a href="https://www.linkedin.com/in/konstantinszmanovskis/" target="_blank">LinkedIn</a></div>
+							</article>
+							<div>Software Engineer passionate about DevOps and Continuous Delivery with over 20 years of experience in IT</div>
+						</div>
+					</div>
+					<div>
+						<p>In need of infrastructure for a new project?</p>
+						<p>Planning project migration to the cloud?</p>
+						<p>Facing heavy loads on your servers?</p>
+						<p>Upcoming migration between environments?</p>
+						<p>Streamlining deployment process?</p>
+						<p>Forced to optimize costs?</p>
+						<p>Struggling with knowledge management?</p>
+						<p>Wanting to automate?</p>
+						<p>In need of better monitoring and observability?</p>
+						<div style="text-align: center;"><b>We can help!</b></div>
+					</div>
+				</div>
+			</header>
+			<main class="container">
+				<hr/>
+				<section id="consulting">
+					<h2>Consulting Services</h2>
+					<div class="grid">
+						<div class="container">
+							<h3>Cost Optimization</h3>
+							<ul>
+								<li>Auditing current cloud or on-premise infrastructure.</li>
+								<li>Providing recommendations for decreasing the maintenance costs of infrastructure.</li>
+								<li>Implementing recommended optimizations.</li>
+								<li>Establishing the processes and best practices for cost monitoring and optimization in the future.</li>
+								<li>Automating key development processes.</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Documentation and Training</h3>
+							<ul>
+								<li>Strong commitment to documentation for all processes and configurations (No vendor lock-in).</li>
+								<li>Facilitating effective knowledge transfer with team members using training sessions, team workshops, personal coaching and mentoring.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid">
+						<div class="container">
+							<h3>Project Management</h3>
+							<ul>
+								<li>Utilizing Agile and Scrum methodologies for efficient project management and project delivery.</li>
+								<li>Providing leadership and guidance for project teams.</li>
+								<li>Auditing technology stack selection based on project requirements.</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Monitoring and Observability</h3>
+							<ul>
+								<li>Auditing current monitoring solutions.
+</li>
+								<li>Providing recommendations to ensure high availability and prompt response to infrastructure failures and other incidents.</li>
+								<li>Configuring monitoring solutions  using tools like Prometheus and Grafana, Amazon Cloud Watch, Azure Application Insights,  Google Cloud Monitoring.
+</li>
+								<li>Enhancing observability of important systems events, alerts, and notifications for proactive issue resolution.
+</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid">
+						<div class="container">
+							<h3>Team Leadership</h3>
+							<ul>
+								<li>Auditing current team and skill-set set up.</li>
+								<li>Assisting in building and managing successful development and operations teams.</li>
+								<li>Providing technical mentoring for individuals and teams.
+</li>
+								<li>Providing soft-skills coaching for individuals and teams.
+</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Heavy load and High Availability</h3>
+							<ul>
+								<li>Analyzing and proposing solutions for heavy load issues.</li>
+								<li>Establishing high availability support.
+</li>
+								<li>Consulting on the horizontal scaling of applications.
+Consulting on the horizontal scaling of applications.
+</li>
+								<li>Supporting the development and implementation of disaster recovery procedures.
+</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<hr/>
+				<section id="technical">
+					<h2>Technical Services</h2>
+					<div class="grid">
+						<div class="container">
+							<h3>DevOps Automation</h3>
+							<ul>
+								<li>Developing and supporting Infrastructure as a Source (IaS) solutions using tools like Terraform and Git.</li>
+								<li>Developing deployment and delivery pipelines for complex applications using tools like Azure DevOps, TeamCity, Jenkins/Hudson and GitHub Actions.
+</li>
+								<li>Implementing Continuous Integration and Continuous Delivery pipelines for fast, efficient and reproducible code deployment, using GitOps approach.
+</li>
+								<li>Automating repetitive building, testing and maintenance tasks to optimize team efficiency and reduce human errors using build tools like Ant, Maven, Gradle, Cargo, Python, Bash, etc.
+</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Migration Services</h3>
+							<ul>
+								<li>Planning and executing of complex infrastructure migrations, ensuring minimal downtime and efficient resource transfer.</li>
+								<li>Migrating applications and services between cloud subscriptions and/or on-premises environments.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid">
+						<div class="container">
+							<h3>Support and Maintenance</h3>
+							<ul>
+								<li>Offering ongoing support and maintenance for infrastructure and applications.</li>
+								<li>Collaborating with development teams to address infrastructure-related needs.
+</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Containerization</h3>
+							<ul>
+								<li>Containerizing applications using Docker for enhanced scalability and deployment efficiency.</li>
+								<li>Orchestrating containers with Kubernetes for better control, monitoring and resource utilization.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid">
+						<div class="container">
+							<h3>Infrastructure Management</h3>
+							<ul>
+								<li>Optimizing existing infrastructure for reliability, scalability, and cost-efficiency.
+</li>
+								<li>Setting up, configuring, and managing cloud infrastructure on platforms like Azure, AWS and Google Cloud.
+</li>
+							</ul>
+						</div>
+						<div class="container">
+							<h3>Technologies</h3>
+							<ul>
+								<li>Expertise in technologies including but not limited to:
+
+
+Microsoft Azure, AWS, Google Cloud, Kubernetes, Docker, Git, Subversion, Perforce, Ant, Maven, Gradle, Cargo, Java, Python, JavaScript, Rust, C#, Bash, PowerShell, MySQL, PostgreSQL, PHP, Nginx, Apache, Linux
+</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
