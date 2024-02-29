@@ -1,3 +1,6 @@
+{{ $logo_light := resources.Get "images/logo.light.svg" }}
+{{ $logo_dark := resources.Get "images/logo.dark.svg" }}
+
 [id="logo"] {
 		width: 115px;
 		height: 80px;
@@ -6,13 +9,13 @@
 
 @media (prefers-color-scheme: dark) {
 	[id="logo"] {
-		background-image: url("/images/logo.light.svg");
+		background-image: url("{{ $logo_light.RelPermalink }}");
 	} 
 }
 
 @media (prefers-color-scheme: light) {
 	[id="logo"] {
-		background-image: url("/images/logo.dark.svg");
+		background-image: url("{{ $logo_dark.RelPermalink }}");
 	} 
 }
 
