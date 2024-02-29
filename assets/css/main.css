@@ -2,9 +2,10 @@
 {{ $logo_dark := resources.Get "images/logo.dark.svg" }}
 
 [id="logo"] {
-		width: 115px;
-		height: 80px;
-		margin-top: 10px;
+	min-width: 115px;
+	width: 115px;
+	height: 80px;
+	margin-top: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
