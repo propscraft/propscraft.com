@@ -2,8 +2,8 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#121212",
-        "body": "#fff",
+        "primary": "#1c1c1c",
+        "body": "#FFA500",
         "border": "#eaeaea",
         "theme_light": "#f6f6f6",
         "theme_dark": ""
@@ -16,7 +16,7 @@
     },
     "darkmode": {
       "theme_color": {
-        "primary": "#fff",
+        "primary": "#FFA500",
         "body": "#1c1c1c",
         "border": "#3E3E3E",
         "theme_light": "#222222",

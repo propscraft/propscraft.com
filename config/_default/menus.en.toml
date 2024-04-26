@@ -7,17 +7,33 @@ pageRef = "/"
 weight = 1
 
 [[main]]
+name = "Offers"
+weight = 2
+
+[[main]]
+parent = "Offers"
+name = "Consulting"
+
+[[main]]
+parent = "Offers"
+name = "Development"
+
+[[main]]
+parent = "Offers"
+name = "Maintenance"
+
+[[main]]
 name = "About"
 pageRef = "/about"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Elements"
 pageRef = "/elements"
-weight = 3
+weight = 4
 
 [[main]]
-weight = 4
+weight = 5
 name = "Pages"
 
 [[main]]
@@ -32,8 +48,8 @@ pageRef = "/contact"
 
 [[main]]
 parent = "Pages"
-name = "Authors"
-pageRef = "/authors"
+name = "Our Team"
+pageRef = "/team"
 
 [[main]]
 parent = "Pages"
@@ -45,20 +61,6 @@ parent = "Pages"
 name = "404 Page"
 pageRef = "/404"
 
-[[main]]
-name = "Offers"
-
-[[main]]
-parent = "Offers"
-name = "Consulting"
-
-[[main]]
-parent = "Offers"
-name = "Development"
-
-[[main]]
-parent = "Offers"
-name = "Maintenance"
 
 # footer menu
 [[footer]]
